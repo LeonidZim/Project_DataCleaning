@@ -67,3 +67,7 @@ def find_outliers_quantile(data, feature, left=0.01, right=0.99):
     cleaned = data[(x > lower_bound) & (x < upper_bound)]
     return outliers, cleaned
 
+
+def prosto(a, b):
+    pass
+
